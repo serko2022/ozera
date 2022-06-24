@@ -1,0 +1,963 @@
+{
+  "settings": {
+    "name": "Великие озёра",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "direct-m",
+      "title": "DirectM на русском",
+      "styling": {
+        "primaryColor": "#5aac98",
+        "secondaryColor": "#A25DAE",
+        "successColor": "#1E7C3A",
+        "infoColor": "#74a3c7",
+        "warningColor": "#FFD785",
+        "dangerColor": "#FF9685",
+        "titleFont": "Oxygen",
+        "subtitleFont": "Libre Franklin",
+        "textFont": "Montserrat",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": [
+        "#40c9d4"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.6.6",
+    "uniqCompNum": 26,
+    "versionPublish": "4.6.6",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            ".link": {
+              "font-size": "1.15rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.245rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "#667bb1"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "#667bb1"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#000000"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#fffffd"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#ffffee!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#fffffd"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#667bb1"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#667bb1!important"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#fffffd",
+            "fontSize": "1.15",
+            "imageSize": 4,
+            "fontName": {
+              "name": "Montserrat",
+              "css": "'Montserrat', sans-serif",
+              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "#667bb1"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ГЛАВНАЯ<br></a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">ОЗЁРА</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ozera.html#header6-8\">Верхнее озеро</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ozera.html#header6-c\">Гурон</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ozera.html#header6-d\">Мичиган</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ozera.html#header6-e\">Сент-Клэр</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ozera.html#header6-f\">Эри</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ozera.html#header6-g\">Онтарио</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">ДОПОЛНИТЕЛЬНО</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Общее</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"dop.html#content5-m\">Острова</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"dop.html#content5-n\">Геология</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"dop.html#content5-o\">Климат</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"dop.html#content5-p\">Транспорт</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Великие озёра</a>",
+          "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "menu2",
+          "_anchor": "menu2-0"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "margin-bottom": "1rem",
+              "color": "#ffffff"
+            },
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            },
+            ".heading-title": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "contentAlign": "center",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-698x1080.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "containerColor1": "#084a6e",
+            "containerColor2": "#24a383",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": 0.5
+          },
+          "title": "Великие озёра",
+          "text": "Вели́кие озёра (англ. Great Lakes, фр. Grands Lacs, иногда также Великие Лаврентьевские озёра — система пресноводных озёр в Северной Америке, на территории США и Канады (озеро Мичиган находится целиком в США, по остальным озёрам и соединяющим их коротким рекам проходит граница между США (⅔ акватории) и Канадой (⅓ акватории озёр)[1]). Включает ряд крупных и средних водоёмов[2], соединённых реками и проливами. К собственно Великим озёрам относят пять крупнейших: Верхнее, Гурон, Мичиган, Эри и Онтарио, хотя иногда в них включают и озеро Сент-Клэр, они образуют самую большую по площади группу пресноводных озёр на Земле (общая площадь 244 106 км², общий объём 22 671 км³), содержащую 21 % поверхности в мире пресной воды (и 84 % запасов пресной воды Северной Америки). С ними связаны несколько средних озёр, важнейшими из которых являются: Сент-Мэрис, Маниту, Нипигон, Ниписсинг. Озёра относятся к бассейну Атлантического океана, сток по реке Святого Лаврентия.\n<br>\n<br>На формирование озёрных котловин наибольшее влияние оказывают тектонические процессы; Великие озёра начали формироваться в конце последнего ледникового периода, около 10 000 лет назад, когда масса ледника продавила земную кору, а после того, как ледник растаял, начался медленный обратный процесс — гляциоизостазия, который также сильно заметен в районе Ботнического залива и Финляндии. Водная масса озёр образовалась при таянии ледника. Северное побережье Великих озёр поднимается быстрее южного, что приводит к эффекту «переливания» воды и медленному затоплению земель на юге. Ранее Великие озёра имели дополнительный сток через нынешние реки Иллинойс и Оттава, но вследствие всё тех же геологических процессов они, будучи и поныне возле берегов озёр, несколько изменили своё русло и кардинально поменяли исток. В результате этого сегодня естественный сток существует лишь по реке Святого Лаврентия.\n<br>\n<br>Развито судоходство и рыболовство. При помощи каналов сформирован водный путь для морских судов протяжённостью около 3000 км. Великие озёра связаны каналами с рекой Гудзон и бассейном реки Миссисипи.\n<br>\n<br>Главные порты: Чикаго, Милуоки, Детройт, Кливленд, Буффало, Торонто.&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"ozera.html\" data-toolbar=\"-mbrBtnMove\">Читать подробнее</a>",
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-1"
+        },
+        {
+          "_styles": {
+            "p": {
+              "color": "#000"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2022 by SerKO",
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "footer4",
+          "_anchor": "footer4-3"
+        }
+      ]
+    },
+    "ozera.html": {
+      "settings": {
+        "title": "Озёра",
+        "order": 2
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            ".link": {
+              "font-size": "1.15rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.245rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "#667bb1"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "#667bb1"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#000000"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#fffffd"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#ffffee!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#fffffd"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#667bb1"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#667bb1!important"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#fffffd",
+            "fontSize": "1.15",
+            "imageSize": 4,
+            "fontName": {
+              "name": "Montserrat",
+              "css": "'Montserrat', sans-serif",
+              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "#667bb1"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ГЛАВНАЯ<br></a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">ОЗЁРА</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ozera.html#header6-8\">Верхнее озеро</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ozera.html#header6-c\">Гурон</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ozera.html#header6-d\">Мичиган</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ozera.html#header6-e\">Сент-Клэр</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ozera.html#header6-f\">Эри</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ozera.html#header6-g\">Онтарио</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">ДОПОЛНИТЕЛЬНО</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Общее</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"dop.html#content5-m\">Острова</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"dop.html#content5-n\">Геология</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"dop.html#content5-o\">Климат</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"dop.html#content5-p\">Транспорт</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Великие озёра</a>",
+          "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "menu2",
+          "_anchor": "menu2-4"
+        },
+        {
+          "_styles": {
+            "p": {
+              "color": "#000"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2022 by SerKO",
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "footer4",
+          "_anchor": "footer4-5"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "showArrow": false,
+            "imageSize": 70,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_background/header3.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "containerColor1": "#094587",
+            "containerColor2": "#3adcdc",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.8
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/lake-superior-red-786x533.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "Верхнее озеро",
+          "text": "Ве́рхнее о́зеро (англ. Lake Superior, оджибве Gichigami — большая вода) — расположено севернее всех и выше всех над уровнем моря. Это озеро является самым крупным и глубоким в системе Великих озёр и самым большим по площади пресноводным озером в мире (82,7 тысячи км²)[11] — больше него лишь Каспийское море. Озеро располагается на границе Канады и США — с севера располагается канадская провинция Онтарио, на западе и юге — американские штаты Миннесота, Висконсин и Мичиган. Верхнее озеро располагается на высоте 183 м над уровнем моря в котловине, образованной ледником в древних кристаллических породах Канадского щита. Максимальная глубина — 406 м, объём воды — 11,6 тысячи км³. Площадь бассейна вместе с площадью озера составляет 207,2 тыс. км². Крупных притоков у озера нет. Береговая линия изрезана, имеются крупные заливы — Кивино, Уайтфиш. Крупнейшие острова: Айл-Ройал, Сент-Игнас, Мишипикотен и острова Апостл. На севере берега высокие (до 400 м) и скалистые, а на юге — в основном низменные и песчаные. Сток по реке Сент-Мэрис длиной 112 км осуществляется в озеро Гурон. Вода в озере холодная и прозрачная. Температура центральной части озера даже летом не превышает 4 °C, а зимой не замерзает из-за штормов. Прибрежная зона покрыта льдом в среднем с начала декабря по конец апреля[12]. Озеро богато рыбой: сиг, форель, осётр и другими видами, а также используется для хозяйственной деятельности в целях обеспечения судоходства и выработки гидроэлектроэнергии. Верхнее озеро является важным звеном водного пути, проходящего по Великим озёрам и проложенного человеком по шлюзованным каналам у города Су-Сент-Мари в обход порогов на реке Сент-Мэрис. Главные порты: Дулут, Сьюпириор, Ашленд (США), Тандер-Бей (Канада)[12]. ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "header6",
+          "_anchor": "header6-8"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "showArrow": false,
+            "imageSize": 70,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_background/header3.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "containerColor1": "#094587",
+            "containerColor2": "#3adcdc",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.8
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/great-lakes-lake-huron-581x406.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "Гурон",
+          "text": "Гуро́н (англ. Lake Huron) — второе по величине озеро в системе Великих озёр и третье по площади пресноводное озеро в мире, занимающее около 59 600 км²[13]. Коротким проливом Макино (длиной около 3 км) соединяется с озером Мичиган и рекой Детройт (длина 51 км) — с озером Эри. Расположено восточнее озера Мичиган. С позиций официальной науки гидрографии Мичиган и Гурон образуют единую систему, тем не менее географически их принято считать отдельными озёрами. Высота поверхности над уровнем моря — около 176 м (как и у Мичигана), глубина — до 229 м. Береговая линия озера поделена между штатом Мичиган (США) и канадской провинцией Онтарио. Основные порты на Гуроне — Сагино, Бей-Сити, Алпина (США) и Сарния (Канада). На Гуроне расположен Манитулин — самый большой остров в мире среди расположенных в пресноводном озере.\n<br>\n<br>Название озера, введённое в обиход французами, происходит от названия индейского племени гуронов.&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "header6",
+          "_anchor": "header6-c"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "showArrow": false,
+            "imageSize": 70,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_background/header3.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "containerColor1": "#094587",
+            "containerColor2": "#3adcdc",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.8
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/great-lakes-lake-michigan-581x406.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "Мичиган",
+          "text": "Мичига́н (англ. Lake Michigan) — четвёртое по величине пресноводное озеро в мире — 58 тысяч км². Судоходным каналом соединяется с системой Миссисипи. Единственное из Великих озёр, полностью находящееся на территории США. Расположено южнее озера Верхнее, соединено с озером Гурон проливом Макино, с системой реки Миссисипи — каналом Чикаго — Локпорт. Площадь Мичигана — около 57 750 км² (третье по площади среди Великих озёр), длина около 500 км, ширина около 190 км. Высота поверхности над уровнем моря — 177 м (как и у Гурона), глубина до 281 м. Покрыто льдом около четырёх месяцев в году. Острова — Бивер[en], Северный Маниту, Южный Маниту. Береговая линия поделена между штатами Мичиган, Индиана, Иллинойс и Висконсин. Крупные города на озере Мичиган включают в себя Чикаго, Эванстон и Хайланд-Парк (Иллинойс), Милуоки и Грин-Бей (Висконсин), Гэри и Хаммонд (Индиана).\n<br>\n<br>Иногда озёра Мичиган и Гурон рассматривают как единое целое (вместе с рекой Сент-Мэрис). Сторонники данной точки зрения опираются на то, что озёра Мичиган и Гурон представляют собой единое гидрологическое целое: их уровни одинаковы, они соединены проливом 40 м глубиной и 8 км шириной в самом узком месте. При подобном рассмотрении площадь озера Мичиган-Гурон превосходит 117 тысяч км², что делает его крупнейшим по площади пресноводным водоёмом планеты и вторым по площади озером после Каспийского моря.&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "header6",
+          "_anchor": "header6-d"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "showArrow": false,
+            "imageSize": 70,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_background/header3.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "containerColor1": "#094587",
+            "containerColor2": "#3adcdc",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.8
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/06.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "Сент-Клэр",
+          "text": "Сент-Клэр — самое маленькое озеро в системе Великих Озёр, находится между озёрами Гурон и Эри. С Гуроном Сент-Клэр связан одноименной рекой, с Эри — рекой Детройт.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "header6",
+          "_anchor": "header6-e"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "showArrow": false,
+            "imageSize": 70,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_background/header3.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "containerColor1": "#094587",
+            "containerColor2": "#3adcdc",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.8
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/great-lakes-lake-erie-581x406.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "Эри",
+          "text": "Э́ри (англ. Erie [ˈɪri], фр. Érié) — десятое по величине пресноводное озеро в мире, четвёртое сверху в системе Великих озёр. Имея площадь 25 700 км², Эри занимает по этому параметру 13-место среди озёр мира (считая Каспийское и Аральское моря). Озеро вытянуто с запад-юго-запада на восток-северо-восток на 388 км при ширине до 92 км. Озеро омывает берега американских штатов Мичиган, Огайо, Пенсильвания и Нью-Йорк и канадской провинции Онтарио. Средняя глубина 19 м, максимальная — 64 м: самое мелководное из Великих озёр. Абсолютная отметка зеркала вод +173,8 м. Многочисленные острова в юго-западной части озера. Температура воды изменяется от 0—2 °C зимой до 24 °C летом. Прибрежная часть замерзает с декабря по март—апрель. Вытекает река Ниагара, впадают реки: Детройт, Гранд, Рейзин, Гурон, Моми, Сандаски, Куяхога. Рекой Ниагарой (длина 56 км) и каналом Уэлленд Эри соединено с озером Онтарио, а судоходным каналом — с рекой Гудзон. На берегу озера находятся города Буффало, Эри, Толидо, Порт-Стенли, Монро, Кливленд. Топоним Эри происходит от названия племени эриелхонан (букв. «длинный хвост», название пумы). ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "header6",
+          "_anchor": "header6-f"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "showArrow": false,
+            "imageSize": 70,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_background/header3.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "containerColor1": "#094587",
+            "containerColor2": "#3adcdc",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.8
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/great-lakes-lake-ontario-581x406.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "Онтарио",
+          "text": "Онта́рио (англ. Ontario) — самое нижнее и самое маленькое (без учёта Сент-Клэр) по величине озеро в системе Великих озёр, площадью около 20 тысяч квадратных километров (19,5 тысяч км²). Максимальная глубина озера достигает 244 м, средняя составляет 86 м. Озеро занимает 14-е место в мире по величине. В озеро впадает река Ниагара. Судоходные каналы связывают Онтарио с озером Эри и рекой Гудзон. К акватории озера примыкают знаменитые Озёра — пальцы (Finger Lakes), относящиеся к типичным туннельным долинам. Рекой Святого Лаврентия соединено с Атлантическим океаном. На Онтарио развито судоходство. Крупные порты на берегах озера — Торонто, Гамильтон, Кингстон (Канада) и Рочестер (США). ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "header6",
+          "_anchor": "header6-g"
+        }
+      ]
+    },
+    "dop.html": {
+      "settings": {
+        "title": "Дополнительно",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            ".link": {
+              "font-size": "1.15rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.245rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "#667bb1"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "#667bb1"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#000000"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#fffffd"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#ffffee!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#fffffd"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#667bb1"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#667bb1!important"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#fffffd",
+            "fontSize": "1.15",
+            "imageSize": 4,
+            "fontName": {
+              "name": "Montserrat",
+              "css": "'Montserrat', sans-serif",
+              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "#667bb1"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">ГЛАВНАЯ<br></a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">ОЗЁРА</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ozera.html#header6-8\">Верхнее озеро</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ozera.html#header6-c\">Гурон</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ozera.html#header6-d\">Мичиган</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ozera.html#header6-e\">Сент-Клэр</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ozera.html#header6-f\">Эри</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"ozera.html#header6-g\">Онтарио</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\">ДОПОЛНИТЕЛЬНО</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Общее</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"dop.html#content5-m\">Острова</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"dop.html#content5-n\">Геология</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"dop.html#content5-o\">Климат</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"dop.html#content5-p\">Транспорт</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"https://mobirise.com/\">Download</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Великие озёра</a>",
+          "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "menu2",
+          "_anchor": "menu2-h"
+        },
+        {
+          "_styles": {
+            "p": {
+              "color": "#000"
+            }
+          },
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2022 by SerKO",
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "footer4",
+          "_anchor": "footer4-i"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "margin-bottom": "1rem",
+              "color": "#ffffff"
+            },
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "contentAlign": "center",
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "containerColor1": "#19b68f",
+            "containerColor2": "#446494",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": 0.2
+          },
+          "title": "Общее",
+          "text": "Великие озёра входят в число крупнейших на Земле скоплений пресной воды. Соперничать с ними могут лишь Байкал, Великие Африканские озёра и ледники Гренландии и Антарктиды. Они связаны между собой реками и каналами, и поэтому вода перетекает из одного в другое. Верхнее озеро является крупнейшим по площади пресноводным озером планеты, а одно только Онтарио — больше самого крупного в Европе Ладожского озера. Средняя глубина их, не будучи очень большой, превосходит среднюю глубину Балтийского и Северного морей.\n<br>\n<br>Длина береговой линии (с островами) около 18 тыс. км. Общая площадь составляет 244 106 км², площадь водосборного бассейна — 768 тыс. км² (включая площадь самих озёр), общий объём 22 671 км³ (немного меньше, чем у самого глубокого озера Земли Байкала), у четырёх озёр глубины превышают 200 м и лишь у озера Эри наибольшая глубина 64 м, а у Сент-Клэр — всего лишь 8. Самым крупным и наиболее глубоким из Великих озёр является озеро Верхнее, самым маленьким — озеро Сент-Клэр.\n<br>\n<br>В Великие озёра впадает несколько сотен небольших рек, сток из озёр происходит по реке Св. Лаврентия, вытекающей из озера Онтарио и впадающей в Атлантический океан; средний расход воды в её истоке 6637 м³/сек.\n<br>\n<br>Раньше отходы канализации, бумажных и прочих фабрик сбрасывались в эти озёра. Вначале существенно загрязнённым оказалось озеро Эри, оно поросло илом, из него пропали многие виды промысловой рыбы. Правительство выделило значительные средства на очистку озёр. Сейчас озёра относительно чисты. Великие озёра являются очень важными объектами отдыха и судоходства.&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Download for Windows</a>",
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-l"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "margin-bottom": "1rem",
+              "color": "#ffffff"
+            },
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "contentAlign": "center",
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "containerColor1": "#19b68f",
+            "containerColor2": "#446494",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": 0.2
+          },
+          "title": "Острова",
+          "text": "По Великим озёрам рассеяны примерно 35 000 островов[9]. Крупнейшими среди них являются Манитулин в озере Гурон, самый большой остров мира, расположенный в пресном озере (площадь больше площади Люксембурга); внутри него есть собственное озеро — Маниту, внутри которого также имеются несколько островков[10]. Другой крупный остров — Айр-Ройал на Верхнем озере. ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Download for Windows</a>",
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-m"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "margin-bottom": "1rem",
+              "color": "#ffffff"
+            },
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "contentAlign": "center",
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "containerColor1": "#19b68f",
+            "containerColor2": "#446494",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": 0.2
+          },
+          "title": "Геология",
+          "text": "Основополагающие тектонические процессы, сформировавшие Великие озёра, проходили от 1,1 до 1,2 миллиарда лет назад[14][15], когда две ранее соединённые тектонические плиты отделились друг от друга и создали среднеконтинентальный рифт.\n<br>\n<br>Великие озёра, по оценкам, были сформированы в конце последнего ледникового периода (около 10 000 лет назад), когда отступил Лаврентийский ледниковый щит. Отступление ледника оставило после себя большое количество талой воды, которая заполнила бассейны, вырезанные ледниками.\n<br>\n<br>При отступлении ледника первыми очистились ото льда озёра Мичиган и Эри. На их месте одно за другим появлялись озёра Чикаго[en], Моми[en], Уитлси[en] с общим стоком в бассейн реки Миссисипи. Когда ото льда очистились озёра Онтарио и Гурон, на их месте образовалось озеро Альгонкин[en] со стоком в озеро Эри. Во время наибольшего развития площадь озера Альгонкин достигала 250 тыс. км². При отступании ледника озеро Онтарио сформировалось как отдельный водоем — озеро Ирокез[en] — со стоком через реку Могаук в реку Гудзон и далее в Атлантический океан. Дальнейшее отступление ледника открыло сток через реку Святого Лаврентия[16].&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Download for Windows</a>",
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-n"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "margin-bottom": "1rem",
+              "color": "#ffffff"
+            },
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "contentAlign": "center",
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "containerColor1": "#19b68f",
+            "containerColor2": "#446494",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": 0.2
+          },
+          "title": "Климат",
+          "text": "Климат Великих озёр — влажный, умеренного типа, похож на климат Средней Балтики. Для района Великих озёр характерны резкие перепады метеоусловий. Это обусловлено близостью таких разных районов, как холодный Гудзонов залив на севере и очень тёплый Мексиканский залив на юге. Наиболее изменчивый сезон — зима, она снежная, наблюдается активная деятельность циклонов. С циклонами связаны и частые вторжения арктического воздуха в это время, приводящие к резкому похолоданию, при этом порой в считанные часы сковываются льдом важные для навигации участки. Зимой сначала лёд покрывает озеро Верхнее, затем — Гурон и Мичиган, в последнюю очередь — Эри. Озёра сковываются льдом не полностью, но навигация прекращается, становясь невозможной с декабря по апрель. Весна длится долго, часты заморозки. Лето прохладное, оно, как и зима, изменчивое, с частыми дождями и сильным ветром. Осень включает период продолжительностью до двух недель, называемый «индейским летом» с ясной и сухой погодой. Осень считается лучшим сезоном в районе Великих озёр[17].\n<br>\n<br>Из-за направлений ветра в холодные сезоны на южных и восточных берегах озёр проявляется снежный эффект озера.&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Download for Windows</a>",
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-o"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "margin-bottom": "1rem",
+              "color": "#ffffff"
+            },
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "contentAlign": "center",
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "containerColor1": "#19b68f",
+            "containerColor2": "#446494",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": 0.2
+          },
+          "title": "Транспорт",
+          "text": "На Великих озёрах развито судоходство. Для грузовых перевозок используются суда особой конструкции — так называемые «озёрные грузовики» или «озёрники», которые могут достигать 300 метров в длину и являются самыми большими неморскими судами в мире. Столь большая длина обусловлена ограничениями по ширине, которые накладываются на суда при прохождении шлюзов. ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Download for Windows</a>",
+          "_tags": [
+            "Темы"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-p"
+        }
+      ]
+    }
+  }
+}
